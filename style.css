@@ -1,0 +1,21 @@
+.profile-pic {
+  width: 150px;         /* smaller size */
+  height: 150px;        /* keep it square */
+  max-width: 100%;      /* ensures it never exceeds container */
+  border-radius: 50%;   /* round image */
+  border: 3px solid white;
+  margin-bottom: 15px;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-inner {
+  display: flex;
+  flex-wrap: wrap;      /* ensures responsiveness */
+  justify-content: center;  /* centers both columns */
+  align-items: center;
+  gap: 40px;
+}
+.section-title {
+  color: orange;
+}
